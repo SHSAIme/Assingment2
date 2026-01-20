@@ -3,7 +3,10 @@ body{
     background-color: #1c0b31;
     color: white;
 }
-
+.top img{
+    width: 219px;
+    height: 32px;
+}
 .navbar{
     background-color: #1c0b31;
     width: 1600px;
@@ -121,4 +124,106 @@ margin:100px 200px;
     height: 20px;
     font-size: 16px;
     font-weight: 400;
+}.box{
+   background-color: #25064b;
+    border-radius: 20px;
+     padding: 40px;
+
+}.tile03{
+    text-align: center;
+    width: 1200px;
+    height: 49px;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0 200px;
+}
+.gridlay{
+    margin: 120px 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+        gap: 30px;
+       
+}.box1{
+    grid-column: span 1;
+    grid-row:span 2 ;
+}.box2{
+    grid-column: span 2;
+
+}.box3{
+    grid-column: span 2;
+}.box4{
+    grid-column: span 2;
+}.box5{
+    grid-row: span 1;
+}.box h3{
+    font-size: 24px;
+    font-weight: 700;
+}.headt{
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+}
+
+ .card{
+    background-color:  #25064b;
+    width: 300px;
+    height: 380px;
+    padding: 0px 12px;
+}.episode{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}.minute{
+    display: flex;
+    color:  rgb(8, 225, 8);
+    gap: 4px;
+}
+.hostcontainer{
+    background-color:#25064b;
+    display: flex;
+    width: 1200px;
+    height: 280px;
+    margin: 120px 200px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 40px;
+    gap: 20px;
+
+}.hosttitle{
+    text-align: start;
+    width: 896px;
+    height: 183px;
+}.icon{
+    display: flex;
+    gap: 15px;
+    margin-top: 40px;
+    width: 184px;
+    height: 40px;
+    
+}
+.icon img{
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    padding: 30px;
+    border-radius: 40%;
+    
+}.yofoot{
+     width: 1600px;
+    height: 412px;
+    background-image:url(../assets/footer-bg.png) ;
+
+}.fticon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 200px;}
+.footcontainer{
+    text-align: center;
+}.logof{
+    position: relative;
+    top: 150px;
+}.mar{
+    margin-top: 50px;
 }
